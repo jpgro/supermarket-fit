@@ -12,7 +12,7 @@ In the SuperMarketData database, data are available on earnings from transaction
 
 Due to its great flexibility to adjust to different distributions, the beta probability density function is used to represent and model the data distribution. 
 
-$B(\alpha, \beta) = \int_0^1 x^{\alpha - 1}{1-x}^{\beta - 1} dx$
+$B(\alpha, \beta) = \int_0^1 x^{\alpha - 1}{(1-x)}^{\beta - 1} dx$
 
 The method of *maximum likelihood estimation* is used to determine the parameters of $\alpha$ and $\beta$. 
 
@@ -28,7 +28,7 @@ The total of contemplated expenses is:
     * 20 janitors 
 * A general manager with a wage of 100,000 MXN monthly
 * 4 sub-managers with a salary of 45,000 MXN monthly each
-* Electricity bill: It is taken into account $120 \frac{kW/h}{m^2}$ in an area of $2000 m^2$ with a cost of $\$ 2.3\frac{kW}{h}$
+* Electricity bill: It is taken into account $120 \frac{kW/h}{m^2}$ in an area of $2000 m^2$ with a cost of $ 2.3\frac{kW}{h}$
 * Water: 
     * Cost per $m^3$ consumed: 169,179.28
     * Sanitation: 20,301.51
